@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  7 MAR 2019 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  7 MAR 2019 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -138,9 +138,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 15.
+(Font)              <14.4> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 
 
 LaTeX Warning: No \author given.
@@ -148,63 +148,75 @@ LaTeX Warning: No \author given.
 <hadronFamily.png, id=1, 1164.35pt x 517.935pt>
 File: hadronFamily.png Graphic file (type png)
 <use hadronFamily.png>
-Package pdftex.def Info: hadronFamily.png  used on input line 35.
+Package pdftex.def Info: hadronFamily.png  used on input line 36.
 (pdftex.def)             Requested size: 319.81526pt x 142.26378pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./hadronFamily.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 54.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 54.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 54.
+(Font)              <6> on input line 55.
  [2]
 <bandOfStability.png, id=18, 420.57124pt x 602.25pt>
 File: bandOfStability.png Graphic file (type png)
 <use bandOfStability.png>
-Package pdftex.def Info: bandOfStability.png  used on input line 90.
+Package pdftex.def Info: bandOfStability.png  used on input line 91.
 (pdftex.def)             Requested size: 238.44463pt x 341.43306pt.
  [3 <./bandOfStability.png>]
 <betaMinus.png, id=25, 376.40625pt x 376.40625pt>
 File: betaMinus.png Graphic file (type png)
 <use betaMinus.png>
-Package pdftex.def Info: betaMinus.png  used on input line 120.
+Package pdftex.def Info: betaMinus.png  used on input line 121.
 (pdftex.def)             Requested size: 227.62596pt x 227.62204pt.
  [4 <./betaMinus.png>]
 <betaPlus.png, id=30, 563.10374pt x 537.00626pt>
 File: betaPlus.png Graphic file (type png)
 <use betaPlus.png>
-Package pdftex.def Info: betaPlus.png  used on input line 134.
+Package pdftex.def Info: betaPlus.png  used on input line 135.
 (pdftex.def)             Requested size: 208.84348pt x 199.16928pt.
- [5 <./betaPlus.png>] (./physics.aux) ) 
+<pairProduction.png, id=31, 284.0211pt x 142.49236pt>
+File: pairProduction.png Graphic file (type png)
+<use pairProduction.png>
+Package pdftex.def Info: pairProduction.png  used on input line 151.
+(pdftex.def)             Requested size: 226.8618pt x 113.81102pt.
+ [5 <./betaPlus.png>]
+<emRepulsion.png, id=35, 286.06876pt x 248.93pt>
+File: emRepulsion.png Graphic file (type png)
+<use emRepulsion.png>
+Package pdftex.def Info: emRepulsion.png  used on input line 169.
+(pdftex.def)             Requested size: 130.79442pt x 113.81102pt.
+ [6 <./pairProduction.png> <./emRepulsion.png>] (./physics.aux) ) 
 Here is how much of TeX's memory you used:
- 1805 strings out of 492616
- 24895 string characters out of 6135178
+ 1815 strings out of 492616
+ 25098 string characters out of 6135178
  92754 words of memory out of 5000000
- 5713 multiletter control sequences out of 15000+600000
+ 5721 multiletter control sequences out of 15000+600000
  8808 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,25p,815b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on physics.pdf (5 pages, 516423 bytes).
+</usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb>
+Output written on physics.pdf (6 pages, 536174 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
