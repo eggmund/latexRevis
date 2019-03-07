@@ -1,0 +1,17 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{parskip}
+\usepackage{graphicx}
+
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+
+\title{Title}
+\date{}
+\begin{document}
+\maketitle
+
+\end{document}

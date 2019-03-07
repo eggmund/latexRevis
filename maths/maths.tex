@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{parskip}
+\usepackage{graphicx}
+
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+
+\title{Maths Notes}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Differentiation}
+
+Differentiation gets the gradient function of a function.
+
+\subsection{First Principles}
+
+You can find an accurate gradient for a point on a curve by using a very small distance of $x$ (${\delta}x$), finding the $y$ values at each point, and taking them away from each other to get ${\delta}y$, and then dividing $\frac{\delta y}{\delta x}$.
+
+\end{document}
