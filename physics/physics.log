@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  7 MAR 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  8 MAR 2019 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -76,35 +76,101 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 ) (./physics.aux)
 \openout1 = `physics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count89
-\scratchdimen=\dimen105
-\scratchbox=\box27
-\nofMPsegments=\count90
-\nofMParguments=\count91
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count92
-\MPscratchDim=\dimen106
-\MPnumerator=\count93
-\makeMPintoPDFobject=\count94
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count101
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen115
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -137,11 +203,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
-
 
 LaTeX Warning: No \author given.
 
@@ -153,70 +214,99 @@ Package pdftex.def Info: hadronFamily.png  used on input line 36.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./hadronFamily.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+<quarks.png, id=10, 1022.82124pt x 577.15625pt>
+File: quarks.png Graphic file (type png)
+<use quarks.png>
+Package pdftex.def Info: quarks.png  used on input line 48.
+(pdftex.def)             Requested size: 252.11507pt x 142.26378pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
- [2]
-<bandOfStability.png, id=18, 420.57124pt x 602.25pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+
+Overfull \hbox (21.95828pt too wide) in paragraph at lines 61--62
+[]\OT1/cmr/m/n/12 Strangeness is con-served al-most all in-ter-ac-tions [][][][
+][][],
+ []
+
+[2 <./quarks.png>]
+<bandOfStability.png, id=17, 420.57124pt x 602.25pt>
 File: bandOfStability.png Graphic file (type png)
 <use bandOfStability.png>
-Package pdftex.def Info: bandOfStability.png  used on input line 91.
+Package pdftex.def Info: bandOfStability.png  used on input line 101.
 (pdftex.def)             Requested size: 238.44463pt x 341.43306pt.
- [3 <./bandOfStability.png>]
-<betaMinus.png, id=25, 376.40625pt x 376.40625pt>
+ [3] [4 <./bandOfStability.png>]
+<betaMinus.png, id=29, 376.40625pt x 376.40625pt>
 File: betaMinus.png Graphic file (type png)
 <use betaMinus.png>
-Package pdftex.def Info: betaMinus.png  used on input line 121.
+Package pdftex.def Info: betaMinus.png  used on input line 135.
 (pdftex.def)             Requested size: 227.62596pt x 227.62204pt.
- [4 <./betaMinus.png>]
 <betaPlus.png, id=30, 563.10374pt x 537.00626pt>
 File: betaPlus.png Graphic file (type png)
 <use betaPlus.png>
-Package pdftex.def Info: betaPlus.png  used on input line 135.
+Package pdftex.def Info: betaPlus.png  used on input line 149.
 (pdftex.def)             Requested size: 208.84348pt x 199.16928pt.
-<pairProduction.png, id=31, 284.0211pt x 142.49236pt>
+ [5 <./betaMinus.png>]
+<pairProduction.png, id=35, 284.0211pt x 142.49236pt>
 File: pairProduction.png Graphic file (type png)
 <use pairProduction.png>
-Package pdftex.def Info: pairProduction.png  used on input line 151.
+Package pdftex.def Info: pairProduction.png  used on input line 165.
 (pdftex.def)             Requested size: 226.8618pt x 113.81102pt.
- [5 <./betaPlus.png>]
-<emRepulsion.png, id=35, 286.06876pt x 248.93pt>
+
+[6 <./betaPlus.png> <./pairProduction.png>]
+<emRepulsion.png, id=40, 286.06876pt x 248.93pt>
 File: emRepulsion.png Graphic file (type png)
 <use emRepulsion.png>
-Package pdftex.def Info: emRepulsion.png  used on input line 169.
+Package pdftex.def Info: emRepulsion.png  used on input line 183.
 (pdftex.def)             Requested size: 130.79442pt x 113.81102pt.
- [6 <./pairProduction.png> <./emRepulsion.png>] (./physics.aux) ) 
+ [7 <./emRepulsion.png>]
+<photoelecExp.png, id=46, 810.02625pt x 370.38374pt>
+File: photoelecExp.png Graphic file (type png)
+<use photoelecExp.png>
+Package pdftex.def Info: photoelecExp.png  used on input line 218.
+(pdftex.def)             Requested size: 390.0pt x 178.33037pt.
+ [8 <./photoelecExp.png>]
+Overfull \hbox (0.48344pt too wide) in paragraph at lines 234--235
+[]\OT1/cmr/m/n/12 You can make an emis-sion/absorption spec-tra to find the emi
+s-sion/absorption
+ []
+
+<spectraElecEmmision.jpg, id=51, 634.37pt x 381.425pt>
+File: spectraElecEmmision.jpg Graphic file (type jpg)
+<use spectraElecEmmision.jpg>
+Package pdftex.def Info: spectraElecEmmision.jpg  used on input line 237.
+(pdftex.def)             Requested size: 390.0pt x 234.50223pt.
+[9 <./spectraElecEmmision.jpg>]
+<mercuryTube.png, id=55, 438.63875pt x 260.975pt>
+File: mercuryTube.png Graphic file (type png)
+<use mercuryTube.png>
+Package pdftex.def Info: mercuryTube.png  used on input line 248.
+(pdftex.def)             Requested size: 390.0pt x 232.04004pt.
+ [10 <./mercuryTube.png>] [11] (./physics.aux) ) 
 Here is how much of TeX's memory you used:
- 1815 strings out of 492616
- 25098 string characters out of 6135178
- 92754 words of memory out of 5000000
- 5721 multiletter control sequences out of 15000+600000
- 8808 words of font info for 31 fonts, out of 8000000 for 9000
+ 2494 strings out of 492616
+ 33042 string characters out of 6135178
+ 103272 words of memory out of 5000000
+ 6371 multiletter control sequences out of 15000+600000
+ 10280 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,25p,815b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb>
-Output written on physics.pdf (6 pages, 536174 bytes).
+ 37i,6n,25p,829b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on physics.pdf (11 pages, 898445 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

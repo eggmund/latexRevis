@@ -1,6 +1,8 @@
 \documentclass[a4paper, 12pt]{article}
-\usepackage{parskip}
-\usepackage{graphicx}
+\usepackage{parskip}   % for formatting paragraphs nicer
+\usepackage{graphicx}  % for images
+\usepackage{color}
+\usepackage{amsmath}   % for text in maths
 
 \makeatletter
 \def\@seccntformat#1{%
@@ -17,9 +19,7 @@
 
 \section{Particles}
 
-\subsection{The Atom}
-
-\subsubsection{Classification}
+\subsection{Classification}
 
 There are two main groups of particles: Hadrons and Leptons.
 
@@ -36,7 +36,17 @@ Baryons consist of 3 quarks of any type. Mesons are a quark - anti quark pair.
 \includegraphics[height=5cm]{hadronFamily.png}
 \end{center}
 
+\subsection{Quarks}
 
+Quarks are fundamental particles that make up hadrons.
+
+The only three quarks that you need to know for A-Level is the up quark ($u$), down quark ($d$) and the strange quark ($s$).
+
+Here is the table from the formula sheet showing the properties:
+
+\begin{center}
+\includegraphics[height=5cm]{quarks.png}
+\end{center}
 
 \subsubsection{Conservation Laws}
 
@@ -48,7 +58,7 @@ Conserved in all interactions:
 	\item{Charge}
 \end{itemize}
 
-Strangeness is conserved almost all interactions unless it is the weak interaction, as the weak interaction involves changing the type of a quark.
+Strangeness is conserved almost all interactions \colorbox{yellow}{unless it is the weak interaction}, as the weak interaction involves changing the type of a quark.
 
 \subsubsection{Specific Mass}
 
@@ -90,6 +100,10 @@ Here is a graph showing the different isotopes for varying numbers of neutrons a
 \begin{center}
 \includegraphics[height=12cm]{bandOfStability.png}
 \end{center}
+
+At lead ($Pb\, ^{208}_{82}$), 126 neutrons and 82 protons, the stability line ends.
+
+Neon ($Ne\, ^{20}_{10}$) is the last isotope that follows the projection line exactly.
 
 \subsubsection{{$\alpha$} decay}
 
@@ -163,10 +177,91 @@ $p^+_1 + e^-_0 \, \rightarrow \, n^0_1 + Ve^0_0$
 
 \subsection{EM Repulsion}
 
-When two like-charged particles get close, they repell through the EM force. \textbf{Virtual} photons are exchanged during the interaction:
+When two like-charged particles get close, they repel through the EM force. \textbf{Virtual} photons are exchanged during the interaction:
 
 \begin{center}
 \includegraphics[height=4cm]{emRepulsion.png}
 \end{center}
+
+\subsection{Antimatter}
+
+Antiparticles have the same attributes as their regular counterparts, but usually the opposite of everything (including charge).
+
+When two antiparticles collide/interact, they annihilate each other, converting the mass of both of the particles into energy in the form of two photons. \colorbox{yellow}{Two photons are produced to conserve momentum.}
+
+Since antiparticles have opposite charges to their normal counterparts, so annihilation is likely to happen if an antiparticle is nearby. Hence why there is so little antimatter compared to matter, but we do not know why there is overall more regular matter than antimatter.
+\newpage
+
+\subsection{The Photoelectric Effect}
+
+The photoelectric effect is the process by which a metal with photons incident on it emits electrons (photoelectrons).
+
+The photon interacts with an electron in the metal, and if the photon has enough energy to liberate the electron, then the electron will be liberated. This minimum energy is the work function ($\phi$).
+
+The work function is the minimum energy required to liberate an electron from the \textit{surface} of the material. Electrons from deeper down in the material require more energy to liberate.
+
+The threshold frequency is the frequency of the photon needed to meet that minimum energy requirement (the work function). The equation for the threshold frequency is:
+$$
+f = \frac{\phi}{h}
+$$
+
+Where $\phi$ is the work function of the material, and $h$ is the planck constant.
+
+The equation you get in the equation sheet is:
+$$
+hf = \phi + E_{k \, (\text{max})}
+$$
+
+The photoelectric effect can be demonstrated using a UV lamp and a charged zinc plate and some gold leaf foil:
+
+\begin{center}
+\includegraphics[width=\textwidth]{photoelecExp.png}
+\end{center}
+
+\newpage
+\subsection{Electron Energy Levels}
+
+Around an atom's nucleus there are discrete energy levels.
+
+\textbf{Excitation} is where an electron bound to an atom moves up one or more energy levels. \textbf{De-excitation} is the opposite. Excitation requires energy to move the electron to a higher state, while de-excitation releases energy in the form of a photon.
+
+\textbf{Ionisation} is where the electron is completely removed from the atom.
+
+\subsubsection{Absorption and Emission lines}
+
+The photons absorbed during excitation, or the photons released during de-excitation can be used to figure out what element the substance is made from, as every atom has different energies required to excite/de-excite electrons.
+
+You can make an emission/absorption spectra to find the emission/absorption lines:
+
+\begin{center}
+\includegraphics[width=\textwidth]{spectraElecEmmision.jpg}
+\end{center}
+
+\subsubsection{Fluorescent Tubes}
+
+Fluorescent tubes work by firing a beam of free electrons from one end to the other.
+The tube is filled with mercury gas, so these free electrons collide with electrons in the atoms in the mercury gas, exciting the electrons. The electrons then de-excite releasing UV photons. There is a phosphorus coating on the inside of the tube, and the UV ray excites electrons in the phosphorus, and quickly de-excites to a lower energy level again, which then releases light in the visible spectrum.
+
+Here is an image of the tube:
+
+\begin{center}
+\includegraphics[width=\textwidth]{mercuryTube.png}
+\end{center}
+
+\subsection{Wave Particle Duality}
+
+Wave particle duality is when a particle has wave-like properties, as well as particle-like qualities. For example, a photon was always thought to be a wave, however the photoelectric effect disproves this, as it requires light to be discrete packets of energy, rather than just a wave.
+
+Another example of wave particle duality would be that electrons can be diffracted if going through a gap of similar size to the De-Broglie wavelength. However, electrons are clearly particles as they are deflected by electric fields, which shows it is also a particle.
+
+Here is the equation for the De-Broglie wavelength:
+
+$$
+\lambda = \frac{h}{p} = \frac{h}{mv}
+$$
+
+\newpage
+\section{Waves}
+
 
 \end{document}
