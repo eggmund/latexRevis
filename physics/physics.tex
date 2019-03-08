@@ -3,19 +3,16 @@
 \usepackage{graphicx}  % for images
 \usepackage{color}
 \usepackage{amsmath}   % for text in maths
-
-\makeatletter
-\def\@seccntformat#1{%
-  \expandafter\ifx\csname c@#1\endcsname\c@section\else
-  \csname the#1\endcsname\quad
-  \fi}
-\makeatother
+\usepackage{hyperref}  % hyperlinks, also for links on contents page
+\usepackage{textcomp}  % for degree sign
 
 \title{Physics Notes}
 \date{}
 \begin{document}
 
 \maketitle
+\tableofcontents
+\newpage
 
 \section{Particles}
 
@@ -33,7 +30,7 @@ Hadrons consist of two separate families of particles: Baryons and Mesons.
 Baryons consist of 3 quarks of any type. Mesons are a quark - anti quark pair.
 
 \begin{center}
-\includegraphics[height=5cm]{hadronFamily.png}
+\includegraphics[height=5cm]{images/hadronFamily.png}
 \end{center}
 
 \subsection{Quarks}
@@ -45,7 +42,7 @@ The only three quarks that you need to know for A-Level is the up quark ($u$), d
 Here is the table from the formula sheet showing the properties:
 
 \begin{center}
-\includegraphics[height=5cm]{quarks.png}
+\includegraphics[height=5cm]{images/quarks.png}
 \end{center}
 
 \subsubsection{Conservation Laws}
@@ -98,7 +95,7 @@ The gravitational force acts between all particles with mass. Like the EM force,
 Here is a graph showing the different isotopes for varying numbers of neutrons and protons, and what decay is likely to happen to each (unless stable):
 
 \begin{center}
-\includegraphics[height=12cm]{bandOfStability.png}
+\includegraphics[height=12cm]{images/bandOfStability.png}
 \end{center}
 
 At lead ($Pb\, ^{208}_{82}$), 126 neutrons and 82 protons, the stability line ends.
@@ -119,6 +116,8 @@ $Pu^{\,240}_{\,94}\, {\Rightarrow}\, U^{\,236}_{\,92} + \alpha^4_2$
 
 \subsubsection{{$\beta$} decay}
 
+The $\beta$ particle is just a high energy (speed) electron or positron, depending on the charge.
+
 \textbf{$\beta^-$ decay:}
 
 $\beta^-$ decay is when a neutron turns into a proton and electron via the weak interaction. The exchange particle is $W^-$, easy to remember since it is also negative.
@@ -132,7 +131,7 @@ The anti neutrino $\overline{V_e}$ is to balance the lepton
 Here is the feynman diagram for $\beta^-$ decay:
 
 \begin{center}
-\includegraphics[height=8cm]{betaMinus.png}
+\includegraphics[height=8cm]{images/betaMinus.png}
 \end{center}
 
 \textbf{$\beta^+$ decay:}
@@ -146,7 +145,7 @@ $p^+_1 \, \rightarrow \, n^0_1 + e^+ + V_e$
 Here is the feynman diagram for $\beta^+$ decay:
 
 \begin{center}
-\includegraphics[height=7cm]{betaPlus.png}
+\includegraphics[height=7cm]{images/betaPlus.png}
 \end{center}
 
 It is pretty much the reverse of $\beta^-$.
@@ -162,7 +161,7 @@ If a photon interacts with a nucleus, the energy of the photon can be converted 
 Here is a diagram:
 
 \begin{center}
-\includegraphics[height=4cm]{pairProduction.png}
+\includegraphics[height=4cm]{images/pairProduction.png}
 \end{center}
 
 \subsection{Electron Capture}
@@ -180,7 +179,7 @@ $p^+_1 + e^-_0 \, \rightarrow \, n^0_1 + Ve^0_0$
 When two like-charged particles get close, they repel through the EM force. \textbf{Virtual} photons are exchanged during the interaction:
 
 \begin{center}
-\includegraphics[height=4cm]{emRepulsion.png}
+\includegraphics[height=4cm]{images/emRepulsion.png}
 \end{center}
 
 \subsection{Antimatter}
@@ -215,7 +214,7 @@ $$
 The photoelectric effect can be demonstrated using a UV lamp and a charged zinc plate and some gold leaf foil:
 
 \begin{center}
-\includegraphics[width=\textwidth]{photoelecExp.png}
+\includegraphics[width=\textwidth]{images/photoelecExp.png}
 \end{center}
 
 \newpage
@@ -234,7 +233,7 @@ The photons absorbed during excitation, or the photons released during de-excita
 You can make an emission/absorption spectra to find the emission/absorption lines:
 
 \begin{center}
-\includegraphics[width=\textwidth]{spectraElecEmmision.jpg}
+\includegraphics[width=\textwidth]{images/spectraElecEmmision.jpg}
 \end{center}
 
 \subsubsection{Fluorescent Tubes}
@@ -245,7 +244,7 @@ The tube is filled with mercury gas, so these free electrons collide with electr
 Here is an image of the tube:
 
 \begin{center}
-\includegraphics[width=\textwidth]{mercuryTube.png}
+\includegraphics[width=\textwidth]{images/mercuryTube.png}
 \end{center}
 
 \subsection{Wave Particle Duality}
@@ -263,5 +262,44 @@ $$
 \newpage
 \section{Waves}
 
+\subsection{Important Definitions}
+
+\begin{itemize}
+	\item{\textbf{Wavelength} $\lambda$ - The length of the wave\dots}
+	\item{\textbf{Period} $T$ - The time to complete one wavelength.}
+	\item{\textbf{Frequency} $f$ - How many wavelengths received per second, or {$f = \frac{1}{T}$}, where $T$ is the period.}
+	\item{\textbf{Displacement} $x$ - The distance from the rest/origin point.}
+	\item{\textbf{Amplitude} $A$ - The maximum displacement.}
+	\item{\textbf{Phase} - A measurement of the position of a certain point along the wave cycle.}
+\end{itemize}
+
+\subsection{Transverse and Longitudinal}
+
+Transverse waves are waves where the oscillation is perpendicular to the direction of propagation. Longitudinal waves are waves where the oscillation is parallel to the direction of propagation.
+
+Transverse vs longitudinal:
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/transverseWave.png}
+\includegraphics[width=\textwidth]{images/longitudinalWave.png}
+\end{center}
+
+\subsection{Polarisation}
+
+Polarisation is where you take a bunch of waves all oscillating in different planes, and filter it so that you are left with all waves oscillating in the same plane.
+
+This only works for transverse waves and does not work with longitudinal waves, since they do not oscillate on different planes, as their oscillation will always be in the direction of travel.
+
+Here is a diagram showing polarisation:
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/polarisation.png}
+\end{center}
+
+If you use two filters at a 90{\textdegree} angle to each other, then all waves will be blocked, since this pretty much becomes a small dot for the wave to get through (if you an imagine having the two slits together), so all up and down movement will be blocked.
+
+Polarisation is used as evidence to show that EM waves are transverse.
+
+TV and radio signals are polarised based on the orientation of the rods on the broadcasting aerial. With TV receiving aerials, you need to orient the aerial so that they are in line with the incoming waves.
 
 \end{document}

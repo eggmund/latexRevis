@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Particles}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Classification}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Quarks}{2}{subsection.1.2}% 
+\contentsline {subsubsection}{\numberline {1.2.1}Conservation Laws}{3}{subsubsection.1.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2}Specific Mass}{3}{subsubsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.3}Forces}{3}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Strong Force}{3}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Electromagnetic Force}{4}{subsubsection.1.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Weak Force}{4}{subsubsection.1.3.3}% 
+\contentsline {subsubsection}{\numberline {1.3.4}Gravitational Force}{4}{subsubsection.1.3.4}% 
+\contentsline {subsection}{\numberline {1.4}Decays}{4}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}{$\alpha $} decay}{5}{subsubsection.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2}{$\beta $} decay}{6}{subsubsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.5}Electron Energy Levels}{7}{subsection.1.5}% 
+\contentsline {subsection}{\numberline {1.6}Pair Production}{7}{subsection.1.6}% 
+\contentsline {subsection}{\numberline {1.7}Electron Capture}{8}{subsection.1.7}% 
+\contentsline {subsection}{\numberline {1.8}EM Repulsion}{8}{subsection.1.8}% 
+\contentsline {subsection}{\numberline {1.9}Antimatter}{8}{subsection.1.9}% 
+\contentsline {subsection}{\numberline {1.10}The Photoelectric Effect}{9}{subsection.1.10}% 
+\contentsline {subsection}{\numberline {1.11}Electron Energy Levels}{10}{subsection.1.11}% 
+\contentsline {subsubsection}{\numberline {1.11.1}Absorption and Emission lines}{10}{subsubsection.1.11.1}% 
+\contentsline {subsubsection}{\numberline {1.11.2}Fluorescent Tubes}{10}{subsubsection.1.11.2}% 
+\contentsline {subsection}{\numberline {1.12}Wave Particle Duality}{11}{subsection.1.12}% 
+\contentsline {section}{\numberline {2}Waves}{12}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Important Definitions}{12}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Transverse and Longitudinal}{12}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Polarisation}{13}{subsection.2.3}% 
