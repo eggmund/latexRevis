@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  8 MAR 2019 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  11 MAR 2019 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,36 +482,37 @@ LaTeX Info: Redefining \nameref on input line 11.
 
 LaTeX Warning: No \author given.
 
-(./physics.toc)
+(./physics.toc [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `physics.toc'.
 
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/hadronFamily.png, id=149, 1164.35pt x 517.935pt>
+ [2]
+<images/hadronFamily.png, id=179, 1164.35pt x 517.935pt>
 File: images/hadronFamily.png Graphic file (type png)
 <use images/hadronFamily.png>
 Package pdftex.def Info: images/hadronFamily.png  used on input line 33.
 (pdftex.def)             Requested size: 319.81526pt x 142.26378pt.
-<images/quarks.png, id=150, 1022.82124pt x 577.15625pt>
+<images/quarks.png, id=180, 1022.82124pt x 577.15625pt>
 File: images/quarks.png Graphic file (type png)
 <use images/quarks.png>
 Package pdftex.def Info: images/quarks.png  used on input line 45.
 (pdftex.def)             Requested size: 252.11507pt x 142.26378pt.
- [2 <./images/hadronFamily.png>]
+
+[3 <./images/hadronFamily.png>]
 Overfull \hbox (21.95828pt too wide) in paragraph at lines 58--59
 []\OT1/cmr/m/n/12 Strangeness is con-served al-most all in-ter-ac-tions [][][][
 ][][],
  []
 
-[3 <./images/quarks.png>]
-<images/bandOfStability.png, id=161, 420.57124pt x 602.25pt>
+[4 <./images/quarks.png>]
+<images/bandOfStability.png, id=191, 420.57124pt x 602.25pt>
 File: images/bandOfStability.png Graphic file (type png)
 <use images/bandOfStability.png>
 Package pdftex.def Info: images/bandOfStability.png  used on input line 98.
 (pdftex.def)             Requested size: 238.44463pt x 341.43306pt.
- [4]
+ [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 105.
@@ -536,86 +537,130 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 117.
 
-[5 <./images/bandOfStability.png>]
-<images/betaMinus.png, id=177, 376.40625pt x 376.40625pt>
+[6 <./images/bandOfStability.png>]
+<images/betaMinus.png, id=206, 376.40625pt x 376.40625pt>
 File: images/betaMinus.png Graphic file (type png)
 <use images/betaMinus.png>
 Package pdftex.def Info: images/betaMinus.png  used on input line 134.
 (pdftex.def)             Requested size: 227.62596pt x 227.62204pt.
- [6 <./images/betaMinus.png>]
-<images/betaPlus.png, id=183, 563.10374pt x 537.00626pt>
+ [7 <./images/betaMinus.png>]
+<images/betaPlus.png, id=213, 563.10374pt x 537.00626pt>
 File: images/betaPlus.png Graphic file (type png)
 <use images/betaPlus.png>
 Package pdftex.def Info: images/betaPlus.png  used on input line 148.
 (pdftex.def)             Requested size: 208.84348pt x 199.16928pt.
-<images/pairProduction.png, id=184, 284.0211pt x 142.49236pt>
+<images/pairProduction.png, id=214, 284.0211pt x 142.49236pt>
 File: images/pairProduction.png Graphic file (type png)
 <use images/pairProduction.png>
 Package pdftex.def Info: images/pairProduction.png  used on input line 164.
 (pdftex.def)             Requested size: 226.8618pt x 113.81102pt.
- [7 <./images/betaPlus.png> <./images/pairProduction.png>]
-<images/emRepulsion.png, id=191, 286.06876pt x 248.93pt>
+ [8 <./images/betaPlus.png> <./images/pairProduction.png>]
+<images/emRepulsion.png, id=220, 286.06876pt x 248.93pt>
 File: images/emRepulsion.png Graphic file (type png)
 <use images/emRepulsion.png>
 Package pdftex.def Info: images/emRepulsion.png  used on input line 182.
 (pdftex.def)             Requested size: 130.79442pt x 113.81102pt.
- [8 <./images/emRepulsion.png>]
-<images/photoelecExp.png, id=197, 810.02625pt x 370.38374pt>
+ [9 <./images/emRepulsion.png>]
+<images/photoelecExp.png, id=226, 810.02625pt x 370.38374pt>
 File: images/photoelecExp.png Graphic file (type png)
 <use images/photoelecExp.png>
 Package pdftex.def Info: images/photoelecExp.png  used on input line 217.
 (pdftex.def)             Requested size: 390.0pt x 178.33037pt.
 
-[9 <./images/photoelecExp.png>]
+[10 <./images/photoelecExp.png>]
 Overfull \hbox (0.48344pt too wide) in paragraph at lines 233--234
 []\OT1/cmr/m/n/12 You can make an emis-sion/absorption spec-tra to find the emi
 s-sion/absorption
  []
 
-<images/spectraElecEmmision.jpg, id=203, 634.37pt x 381.425pt>
+<images/spectraElecEmmision.jpg, id=232, 634.37pt x 381.425pt>
 File: images/spectraElecEmmision.jpg Graphic file (type jpg)
 <use images/spectraElecEmmision.jpg>
 Package pdftex.def Info: images/spectraElecEmmision.jpg  used on input line 236
 .
 (pdftex.def)             Requested size: 390.0pt x 234.50223pt.
-[10 <./images/spectraElecEmmision.jpg>]
-<images/mercuryTube.png, id=208, 438.63875pt x 260.975pt>
+[11 <./images/spectraElecEmmision.jpg>]
+<images/mercuryTube.png, id=237, 438.63875pt x 260.975pt>
 File: images/mercuryTube.png Graphic file (type png)
 <use images/mercuryTube.png>
 Package pdftex.def Info: images/mercuryTube.png  used on input line 247.
 (pdftex.def)             Requested size: 390.0pt x 232.04004pt.
- [11 <./images/mercuryTube.png>]
-<images/transverseWave.png, id=213, 816.04875pt x 479.7925pt>
+ [12 <./images/mercuryTube.png>]
+<images/transverseWave.png, id=242, 816.04875pt x 479.7925pt>
 File: images/transverseWave.png Graphic file (type png)
 <use images/transverseWave.png>
 Package pdftex.def Info: images/transverseWave.png  used on input line 283.
 (pdftex.def)             Requested size: 272.99881pt x 160.50635pt.
-<images/longitudinalWave.png, id=214, 823.075pt x 198.7425pt>
+<images/longitudinalWave.png, id=243, 823.075pt x 198.7425pt>
 File: images/longitudinalWave.png Graphic file (type png)
 <use images/longitudinalWave.png>
 Package pdftex.def Info: images/longitudinalWave.png  used on input line 284.
 (pdftex.def)             Requested size: 390.0pt x 94.17015pt.
 
-[12 <./images/transverseWave.png> <./images/longitudinalWave.png>]
-<images/polarisation.png, id=219, 803.0pt x 533.995pt>
+[13 <./images/transverseWave.png> <./images/longitudinalWave.png>]
+<images/superposition.png, id=249, 278.2395pt x 112.0185pt>
+File: images/superposition.png Graphic file (type png)
+<use images/superposition.png>
+Package pdftex.def Info: images/superposition.png  used on input line 294.
+(pdftex.def)             Requested size: 195.0pt x 78.50641pt.
+<images/singleSlitDiffPattern.jpg, id=250, 1284.8pt x 723.70375pt>
+File: images/singleSlitDiffPattern.jpg Graphic file (type jpg)
+<use images/singleSlitDiffPattern.jpg>
+Package pdftex.def Info: images/singleSlitDiffPattern.jpg  used on input line 3
+16.
+(pdftex.def)             Requested size: 390.0pt x 219.67473pt.
+ [14 <./images/superposition.png (PNG copy)>]
+<images/singleSlit.png, id=255, 702.625pt x 602.25pt>
+File: images/singleSlit.png Graphic file (type png)
+<use images/singleSlit.png>
+Package pdftex.def Info: images/singleSlit.png  used on input line 324.
+(pdftex.def)             Requested size: 282.16002pt x 241.84842pt.
+ [15 <./images/singleSlitDiffPattern.jpg> <./images/singleSlit.png>]
+<images/slitDIffCompare.jpg, id=261, 351.3125pt x 264.99pt>
+File: images/slitDIffCompare.jpg Graphic file (type jpg)
+<use images/slitDIffCompare.jpg>
+Package pdftex.def Info: images/slitDIffCompare.jpg  used on input line 332.
+(pdftex.def)             Requested size: 234.00238pt x 176.5113pt.
+<images/Double-slit-diffraction-diagram.png, id=262, 834.11626pt x 764.8575pt>
+File: images/Double-slit-diffraction-diagram.png Graphic file (type png)
+<use images/Double-slit-diffraction-diagram.png>
+Package pdftex.def Info: images/Double-slit-diffraction-diagram.png  used on in
+put line 340.
+(pdftex.def)             Requested size: 390.0pt x 357.61574pt.
+ [16 <./images/slitDIffCompare.jpg>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 345.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 345.
+
+Missing character: There is no ° in font cmr12!
+<images/pathDifference.jpg, id=267, 361.35pt x 327.2225pt>
+File: images/pathDifference.jpg Graphic file (type jpg)
+<use images/pathDifference.jpg>
+Package pdftex.def Info: images/pathDifference.jpg  used on input line 348.
+(pdftex.def)             Requested size: 195.0pt x 176.58267pt.
+[17 <./images/Double-slit-diffraction-diagram.png (PNG copy)>]
+<images/polarisation.png, id=272, 803.0pt x 533.995pt>
 File: images/polarisation.png Graphic file (type png)
 <use images/polarisation.png>
-Package pdftex.def Info: images/polarisation.png  used on input line 296.
+Package pdftex.def Info: images/polarisation.png  used on input line 370.
 (pdftex.def)             Requested size: 390.0pt x 259.35393pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
- [13 <./images/Polarisation.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
+ [18 <./images/pathDifference.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+ [19 <./images/Polarisation.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
  (./physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
 Package rerunfilecheck Info: File `physics.out' has not changed.
-(rerunfilecheck)             Checksum: 6AEDCF72FFF47EF9F0556668266A06BD;1818.
+(rerunfilecheck)             Checksum: 2DEB4551ADA5C0DDDBA2DDC349CE6178;2165.
  ) 
 Here is how much of TeX's memory you used:
- 6608 strings out of 492616
- 95532 string characters out of 6135178
- 188547 words of memory out of 5000000
- 10394 multiletter control sequences out of 15000+600000
+ 6654 strings out of 492616
+ 96656 string characters out of 6135178
+ 189547 words of memory out of 5000000
+ 10423 multiletter control sequences out of 15000+600000
  10617 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,31p,829b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -629,10 +674,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></
 usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on physics.pdf (13 pages, 1244680 bytes).
+Output written on physics.pdf (19 pages, 1825322 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
