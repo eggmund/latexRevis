@@ -337,7 +337,7 @@ The two sources interfere with each other to form bright and dark patches.
 Where the waves meet up, they interfere constructively:
 
 \begin{center}
-\includegraphics[width=\textwidth]{images/Double-slit-diffraction-diagram.png}
+\includegraphics[height=10cm]{images/Double-slit-diffraction-diagram.png}
 \end{center}
 
 $n$ is the "order", which is the number of the bright spot from the central maximum. The pattern is mirrored, so so are the order numbers.
@@ -352,6 +352,8 @@ Where $w$ is the fringe spacing, $D$ is the distance of the slits from the scree
 
 Each wave in the light will have to travel different distances depending on where the source of the wave is, and at what angle the wave is travelling in. The difference in distance to travel to each point is called the path difference, measured in wavelengths. When the path difference between waves is a multiple of $\lambda$, then there is constructive interference, producing a bright spot, while at every $\frac{1}{2}$ multiple of $\lambda$, each wave is 180$\textdegree$ out of phase (or $\pi$ radians), so they destructively interfere creating the dark patches.
 
+So at the first order, the path difference would be $\lambda$, second order would be $2{\lambda}$, and so on.
+
 \begin{center}
 \includegraphics[width=0.5\textwidth]{images/pathDifference.jpg}
 \end{center}
@@ -362,9 +364,33 @@ $$
 n\lambda = d\sin\theta
 $$
 
-Where $n$ is the order, $\lambda$ is the wavelength and $d$ is the distance between slits.
+Where $n$ is the order, $\lambda$ is the wavelength and $d$ is the distance between slits. The path difference is the extra part of the line in Path 2.
 
-The path difference is the extra part of the line in Path 2.
+$n{\lambda}$ can be replaced with the path difference, as this is the opposite side of the triangle in the above image, where $d$ is the hypotenuse.
+
+When doing any slit experiment with white light, the spectrum will separate, with blues towards the middle, and reds going out:
+
+\begin{center}
+\includegraphics[height=6cm]{images/doubleSlitWhite.png}
+\end{center}
+
+\subsection{Diffraction Gratings}
+
+Diffraction gratings work almost the same as the double slit experiment, however the slit spacing is usually very small. When you add more than two slits, the pattern seen has brighter and narrower fringes, and darker dark-fringes. A diffraction grating has many many small slits, so the pattern is very sharp.
+
+Usually in a question you will be given the number of slits/lines in a diffraction grating per millimetre or something. To convert this to the distance between slits, you need to do:
+
+$$
+d = \frac{measurment}{lines \, per \, measurement}
+$$
+
+For example, if you have 500 lines/millimetre, then to convert this you do:
+
+$$
+\frac{10^{-3}}{500} = 2 \times 10^{-6}
+$$
+
+This is the $d$ distance to use in the equation in the last section.
 
 \subsection{Polarisation}
 
@@ -387,5 +413,12 @@ TV and radio signals are polarised based on the orientation of the rods on the b
 \subsubsection{Polarising Glasses}
 
 Polarising sunglasses are used to reduce glare from light reflected off of objects. This is because when light is reflected, it is polarised. Polarising glasses contain a filter to block this light.
+
+\subsection{Standing Waves}
+
+Standing/Stationary waves is the superposition of two progressive waves with the same frequency moving in opposite directions.
+
+Standing waves are waves that do not transfer energy in any direction, however they do still oscillate.
+
 
 \end{document}
