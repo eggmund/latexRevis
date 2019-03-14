@@ -32,3 +32,5 @@
 \contentsline {subsection}{\numberline {2.8}Polarisation}{19}{subsection.2.8}% 
 \contentsline {subsubsection}{\numberline {2.8.1}Polarising Glasses}{20}{subsubsection.2.8.1}% 
 \contentsline {subsection}{\numberline {2.9}Standing Waves}{20}{subsection.2.9}% 
+\contentsline {section}{\numberline {3}Astrophysics}{20}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Lenses}{20}{subsection.3.1}% 
