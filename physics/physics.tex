@@ -150,7 +150,7 @@ Here is the feynman diagram for $\beta^+$ decay:
 
 It is pretty much the reverse of $\beta^-$.
 
-\subsection{Electron Energy Levels}
+\subsection{Electron Energy Levaels}
 
 Electrons around the nucleus can have different energy levels depending on how far away they are from the nucleus (potential energy). The further away they are from the nucleus, the less energy is required to remove the electron from that energy level and onto a higher one.
 
@@ -505,5 +505,98 @@ This secondary mirror can also be flat if the light's angle does not need to be 
 \includegraphics[width=\textwidth]{images/reflectingTele.png}
 
 Pretty much just nicking CGP images (but that is because they are decent).
+
+\subsection{Resolving Power of a Telescope}
+
+The resolving power of a telescope is the measure of how much detail you can see through the telescope.
+
+It is dependant on the minimum angle that the telescope can distinguish two points at. The smaller the angle, the better the telescope can distinguish two points close together.
+
+\includegraphics[width=\textwidth]{images/angularResolution.png}
+
+The minimum ange is limited by diffraction. If the light passes through a circular apeture (tube of telescope), then it will diffract and form a pattern like the single slit experiment, however in 2 dimensions. The central maximum of that pattern is called the "Airy disc". Two light sources can just about be distinguished if one of the sources' Airy discs is at least as far away as the first minimum of the diffraction pattern formed by the other star (first dark band going out from middle).
+
+\begin{center}
+\includegraphics[width=5cm]{images/airyDisc.png}
+\end{center}
+
+This leads to the Rayleigh criterion:
+
+$$
+\theta \approx \frac{\lambda}{D}
+$$
+
+Where in our case, $D$ is the diameter of the objective lens/mirror. The larger the mirror/lens, the less diffraction will happen, therefore there will be a clearer image.
+
+\subsection{Problems with Refracting Telescopes}
+
+\begin{itemize}
+	\item Glass refracts light of different wavelengths different amounts, so the different colours of light from an object will not all focus onto the focal plane of each lens. Causes chromatic aberration (where each colour forms a different image).
+
+	\item Bubbles and impurities in the glass block some light from the source, and making large lenses that are of good quality are expensive and difficult to make.
+
+	\item Large lenses are very heavy compared to mirrors.
+
+	\item For large magnification, the objective lens needs to have a very long focal length, so the barrel of a large refracting telescope would be huge, and very expensive due to the building needed to house it.
+\end{itemize}
+
+\subsection{Problem with Reflecting Telescopes}
+
+If the mirror is not a perfect parabolic shape, then not all rays reflected by the mirror will meet at the focal point exactly, creating a blurry image. This is called spherical aberration.
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/sphericalAbb.png}
+\end{center}
+
+\subsection{CCD's (Charge-Coupled Devices)}
+
+CCD's are camera sensors.
+
+CCD's are silicon chips roughly the size of a postage stamp, with grids of pixels. Each square on the grid detects photons.
+
+When a photon hits a pixel in the grid, they cause electrons to be released (photoelectric effect), which changes the charge on the pixel, and the charge on each pixel can be used to create a digital signal.
+
+This signal tells the firmware (in the CCD unit somewhere) the intensity of light at that pixel, so from this an image can be formed.
+
+\subsubsection{Comparing the human eye to a CCD}
+
+\begin{itemize}
+	\item The eye can only detect visible light, whereas a CCD can detect infrared, visible and UV light.
+
+	\item CCD's are better for capturing fine detail, since the eye's spacial resolution (distance between objects so that they become distinguishable) is higher (worse) at 100 $\mu$m, whereas a CCD usually has a spacial resolution of 10 $\mu$m.
+
+	\item Quantum efficiency is 80\% higher for CCD's compared to the eye. The quantum efficiency is the proportion of incident photons detected. For the eye, this is around 1\%.
+
+	\item The human eye doesn't need more equipment (hopefully), and looking down a telescope is easier than setting up a whole CCD.
+
+	\item When using a CCD you can keep the images and share them globally if you want.
+\end{itemize}
+
+
+\subsection{Radio Telescopes}
+
+Radio telescopes work very similarly to reflecting telescopes, where you have a parabolic dish that collects light, and reflects it towards the middle.
+
+A radio telescope does not need an equivalent to an eye lens, the radio waves are instead reflected onto a pre-amplifier, which then goes onto the antenna, where it is turned into a digital signal.
+
+Radio telescopes are usually manoeuvrable, so they can track the radio source.
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/radioTelescope.png}
+\end{center}
+
+Radio waves have much longer wavelengths ($\times 10^6$ longer). This means that the resolving power of a radio telescope will be much lower than a reflecting telescope, due to the Rayleigh criterion: $\theta = \frac{\lambda}{D}$. The dish would have to be the size of the UK to get a resolving power the same as an optical telescope.
+
+To get around this, we link a bunch or radio telescopes together (makes an equivalent to one huge dish the size of the separation of the telescopes), and using some algorithms you can combine all the signals to produce one image. This can make the resolving power thousands of times better than an optical telescope.
+
+The longer wavelength of radio waves also means that irregularities in the reflecting surface do not have as much of an effect, since the gaps are much smaller than the wavelength.
+
+This means that we can just use wire mesh to reflect the waves, as this is less expensive and easier to make. Also, the precision of the shape of the dish has to be $\frac{\lambda}{20}$ (for all telescopes) to prevent spherical aberration, so less precision needed.
+
+Radio telescopes have to scan across the object to form an image.
+
+\subsection{Problems with telescopes on the ground.}
+
+The main problem for telescopes on the ground is the atmosphere. The atmosphere only lets certain wavelengths through. Light in the visible spectrum is mostly let through, so optical telescopes are fine on the surface.
 
 \end{document}
