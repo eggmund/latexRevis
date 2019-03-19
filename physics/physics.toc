@@ -32,14 +32,20 @@
 \contentsline {subsection}{\numberline {2.8}Polarisation}{19}{subsection.2.8}% 
 \contentsline {subsubsection}{\numberline {2.8.1}Polarising Glasses}{20}{subsubsection.2.8.1}% 
 \contentsline {subsection}{\numberline {2.9}Standing Waves}{20}{subsection.2.9}% 
-\contentsline {section}{\numberline {3}Astrophysics}{21}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Lenses}{21}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Refracting Telescope}{22}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Reflecting Telescope}{23}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Resolving Power of a Telescope}{24}{subsection.3.4}% 
-\contentsline {subsection}{\numberline {3.5}Problems with Refracting Telescopes}{25}{subsection.3.5}% 
-\contentsline {subsection}{\numberline {3.6}Problem with Reflecting Telescopes}{25}{subsection.3.6}% 
-\contentsline {subsection}{\numberline {3.7}CCD's (Charge-Coupled Devices)}{26}{subsection.3.7}% 
-\contentsline {subsubsection}{\numberline {3.7.1}Comparing the human eye to a CCD}{26}{subsubsection.3.7.1}% 
-\contentsline {subsection}{\numberline {3.8}Radio Telescopes}{27}{subsection.3.8}% 
-\contentsline {subsection}{\numberline {3.9}Problems with telescopes on the ground.}{28}{subsection.3.9}% 
+\contentsline {subsubsection}{\numberline {2.9.1}Harmonics}{20}{subsubsection.2.9.1}% 
+\contentsline {subsection}{\numberline {2.10}Sound}{21}{subsection.2.10}% 
+\contentsline {section}{\numberline {3}Astrophysics}{22}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Lenses}{22}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Refracting Telescope}{23}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Reflecting Telescope}{24}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Resolving Power of a Telescope}{25}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}Problems with Refracting Telescopes}{26}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.6}Problem with Reflecting Telescopes}{26}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}CCD's (Charge-Coupled Devices)}{27}{subsection.3.7}% 
+\contentsline {subsubsection}{\numberline {3.7.1}Comparing the human eye to a CCD}{27}{subsubsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.8}Radio Telescopes}{28}{subsection.3.8}% 
+\contentsline {subsection}{\numberline {3.9}Problems with telescopes on the ground.}{29}{subsection.3.9}% 
+\contentsline {subsection}{\numberline {3.10}Arcseconds}{29}{subsection.3.10}% 
+\contentsline {subsection}{\numberline {3.11}Astronomical Units}{29}{subsection.3.11}% 
+\contentsline {subsection}{\numberline {3.12}Parsecs}{29}{subsection.3.12}% 
+\contentsline {subsection}{\numberline {3.13}Light-Years}{31}{subsection.3.13}% 

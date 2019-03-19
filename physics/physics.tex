@@ -232,6 +232,8 @@ You can make an emission/absorption spectra to find the emission/absorption line
 
 \includegraphics[width=\textwidth]{images/spectraElecEmmision.jpg}
 
+A black body is a body that perfectly absorbs and emits light (if you looked at the spectrum emitted by the black body, you would see no gaps).
+
 \subsubsection{Fluorescent Tubes}
 
 Fluorescent tubes work by firing a beam of free electrons from one end to the other.
@@ -342,7 +344,7 @@ $$
 
 Where $w$ is the fringe spacing, $D$ is the distance of the slits from the screen, and $s$ is the slit spacing. 
 
-Each wave in the light will have to travel different distances depending on where the source of the wave is, and at what angle the wave is travelling in. The difference in distance to travel to each point is called the path difference, measured in wavelengths. When the path difference between waves is a multiple of $\lambda$, then there is constructive interference, producing a bright spot, while at every $\frac{1}{2}$ multiple of $\lambda$, each wave is 180$\textdegree$ out of phase (or $\pi$ radians), so they destructively interfere creating the dark patches.
+Each wave in the light will have to travel different distances depending on where the source of the wave is, and at what angle the wave is travelling in. The difference in distance to travel to each point is called the path difference, measured in wavelengths. When the path difference between waves is a multiple of $\lambda$, then there is constructive interference, producing a bright spot, while at every $\frac{1}{2}$ multiple of $\lambda$, each wave is 180\textdegree out of phase (or $\pi$ radians), so they destructively interfere creating the dark patches.
 
 So at the first order, the path difference would be $\lambda$, second order would be $2{\lambda}$, and so on.
 
@@ -409,6 +411,45 @@ Polarising sunglasses are used to reduce glare from light reflected off of objec
 Standing/Stationary waves is the superposition of two progressive waves with the same frequency moving in opposite directions.
 
 Standing waves are waves that do not transfer energy in any direction, however they do still oscillate.
+
+One way of creating standing waves is by having a driving oscillator at one end of a stretched string, with the other end fixed. When the oscillator is on, the waves created are reflected backwards, and superpose. If the wavelength the oscillator is producing is in the sequence $\frac{1}{2} l$, where $l$ is the length of string, then it will form a standing wave.
+
+\subsubsection{Harmonics}
+
+As talked about above, at certain wavelengths, stationary waves are formed on a string.
+These are the harmonics. Nodes form where the wave does not seem to oscillate (the two opposing waves cancel out at this point), and anti-nodes are where the standing wave oscillates the most.
+
+The first harmonic looks like this:
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/firstHarmonic.png}
+\end{center}
+
+The first harmonic has two nodes, one at each end, and one anti-node in the middle.
+
+Nodes are usually marked with a dot, and anti-nodes with a cross.
+
+Here is the second harmonic:
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/secondHarmonic.png}
+\end{center}
+
+For the first harmonic on a string, you can use this equation to find the frequency:
+
+$$
+f = \frac{1}{2l} \sqrt{\frac{T}{\mu}}
+$$
+
+Where $\mu$ is the mass per unit length of the string, $T$ is the tension in the string, and $l$ is the length of the string.
+
+\subsection{Sound}
+
+Stationary waves can also be created in air too. This is how clarinets and trumpets work. A wave is formed in the tube of the instrument, and is reflected by an area of high/low pressure (formed by the wave itself) at the end of the tube. Opening holes in the tube creates an opening closer to the mouthpiece, creating shorter wavelengths. This only produces odd numbered harmonics, since a node/anti-node is needed at the end to reflect the wave:
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/harmonicInTube.png}
+\end{center}
 
 \newpage
 \section{Astrophysics}
@@ -598,5 +639,56 @@ Radio telescopes have to scan across the object to form an image.
 \subsection{Problems with telescopes on the ground.}
 
 The main problem for telescopes on the ground is the atmosphere. The atmosphere only lets certain wavelengths through. Light in the visible spectrum is mostly let through, so optical telescopes are fine on the surface.
+
+\subsection {Arcseconds}
+
+Arcseconds are a unit of measuring angles. They are used for measuring angular distances in the sky. Arcseconds are used rather than degrees because usually the angular distance between objects in the sky are very small, so a smaller unit of measurement than the degree was needed.
+
+They have nothing to do with time, it's just because the Babylonians decided to use the same format as time for their astronomical angles.
+
+$$
+1 \, arcsecond = \frac{1}{3600} \, degrees
+$$
+
+$$
+1 \, arcminute = \frac{1}{60} \, degrees
+$$
+
+and so on.
+
+\subsection{Astronomical Units}
+
+The astronomical unit ($AU$) is the average distance between the center of the Sun and the center of the Earth.
+
+\subsection{Parsecs}
+
+Full definition: 1 parsec is the distance to a star which subtends an angle of 1 arcsecond to the line from the centre of the Earth to the centre of the Sun.
+
+Parallax is when you look out of the car window and stuff that is closer seems to move faster than things that are far away. The angle of parallax (stellar parallax) in this case, is the angle between the centre of the Sun, the object, and the centre of the Earth.
+
+\includegraphics[width=\textwidth]{images/parsec.png}
+
+The parsec is used because it is very easy to get the distance in parsecs when given the parallax angle.
+
+$$
+d = \frac{1}{\theta}
+$$
+
+This works because $\theta$ is usually a very small angle (arcseconds are tiny), so we can use the small angle approximations. $\tan{\theta} \approx \theta$
+
+The distance to the object is the adjacent, the opposite is 1 $AU$, and so
+
+\begin{align*}
+	\tan{\theta} &= \frac{o}{a} \\
+	\tan{\theta} & \approx \theta \\
+	\theta &= \frac{o}{a} = \frac{1}{d} \\
+	d &= \frac{1}{\theta}
+\end{align*}
+
+\subsection{Light-Years}
+
+1 light-year is the distance light travels in 1 year in a vacuum ($\approx 3 \times 10^8 \, m$).
+
+Light-years are useful because they help you understand how hugely far away stuff is. For example, when you look at the Moon, light takes 1 second to come from the Moon (reflected off of the surface), so when you look at the moon you are looking at it as it was 1 second ago. Or if a galaxy is 10 light-years away, then you are looking at it as it was 10 years ago.
 
 \end{document}
