@@ -1,2 +1,0 @@
-# latexRevis
-revision stuff

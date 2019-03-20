@@ -266,7 +266,8 @@ $$
 	\item{\textbf{Frequency} $f$ - How many wavelengths received per second, or {$f = \frac{1}{T}$}, where $T$ is the period.}
 	\item{\textbf{Displacement} $x$ - The distance from the rest/origin point.}
 	\item{\textbf{Amplitude} $A$ - The maximum displacement.}
-	\item{\textbf{Phase} - A measurement of the position of a certain point along the wave cycle.}
+	\item{\textbf{Phase} - A measurement of the position of a certaain point along the wave cycle.}a
+	\item{\textbf{Intensity} - The intensity of light is the number of photons incident per second.}
 \end{itemize}
 
 \subsection{Transverse and Longitudinal}
@@ -303,6 +304,76 @@ The amount of diffraction depends on the wavelength of the wave compared to the 
 	\item{When the gap is the same width as the wavelength, you get maximum diffraction.}
 	\item{If the gap is smaller than the wavelength, then most of the wave is reflected back.}
 \end{itemize}
+
+\subsection{Refractive index}
+
+The refractive index of a material is the ratio of the speed of light in a vacuum divided by the speed of light in the material.
+
+\subsubsection{Snell's Law}
+
+Snell's law relates the refractive index of a two materials to the angle of incidence and angle of refraction:
+
+$$
+n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
+$$
+
+Here, $\theta_1$ is the angle the ray is from the normal in material 1, and same with $\theta_2$.
+
+\begin{center}
+\includegraphics[]{images/incidentAngle.png}
+\end{center}
+
+When light moves into a more optically dense material, the light refracts towards the normal, and when light moves into a less optically dense material it refracts away from the normal.
+
+\subsubsection{Critical Angle}
+
+The critical angle ($\theta_c$) is when a ray is diffracted so that the angle of refraction is 90\textdegree from the normal. An angle larger than the critical angle will cause the ray to be reflected back into the material. This is called \textbf{total internal reflection}.
+
+When the angle of refraction is 90\textdegree then:
+
+\begin{align*}
+n_1 \sin{\theta_1} &= n_2 \sin{\theta_2} \\
+n_1 \sin{\theta_1} &= n_2 \sin{90} = n_2 \\
+\sin{\theta_c} &= \frac{n_2}{n_1} \\
+\end{align*}
+
+\begin{center}
+\includegraphics[]{images/criticalAngle.png}
+\end{center}
+
+\subsection{Fibre-optics}
+
+Total internal reflection is when the angle of incidence is larger than the critical angle, so the ray gets reflected.
+
+Fibre-optics use this to transport light.
+
+\begin{center}
+\includegraphics[]{images/opticalFibreCrossSec.png}
+\end{center}
+
+The core is made out of a flexible glass/glass polymers. The cladding is made out of a lower refractive index material, so that total internal reflection happens. The jacket is usually for protection and so is usually made out of rubber.
+
+\subsubsection{Absorption}
+
+Some rays in a signal in an optical cable can be absorbed along the way, resulting in a loss of amplitude.
+
+\begin{center}
+\includegraphics[]{images/opticsAbsorption.png}
+\end{center}
+
+\subsubsection{Dispersion}
+
+There are two types of dispersion, but they both lead to the signal becoming broader.
+
+Modal dispersion is when some rays lag behind others, or are ahead of others.
+
+Material dispersion is where different wavelengths in the signal travel at different speeds in the fibre.
+
+Here is the result of both:
+
+\begin{center}
+
+\end{center}
 
 \subsection{Single Slit Diffraction}
 
@@ -690,5 +761,23 @@ The distance to the object is the adjacent, the opposite is 1 $AU$, and so
 1 light-year is the distance light travels in 1 year in a vacuum ($\approx 3 \times 10^8 \, m$).
 
 Light-years are useful because they help you understand how hugely far away stuff is. For example, when you look at the Moon, light takes 1 second to come from the Moon (reflected off of the surface), so when you look at the moon you are looking at it as it was 1 second ago. Or if a galaxy is 10 light-years away, then you are looking at it as it was 10 years ago.
+
+\subsection{Black Bodies and Power Output of Stars}
+
+\textbf{A black body is a body that absorbs and radiates all incident radiation wavelengths.} Black bodies have a peak wavelength that it emmits, based on the temperature of the body.
+
+A star can be approximated as a black body. As a star gets hotter, it tends to become more blue:
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/blackBodyColour.png}
+\end{center}
+
+Stars of different temperatures have a different peak wavelenth:
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/blackBodyPeakWav.jpg}
+\end{center}
+
+
 
 \end{document}
