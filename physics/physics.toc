@@ -56,3 +56,4 @@
 \contentsline {subsection}{\numberline {3.12}Parsecs}{32}{subsection.3.12}% 
 \contentsline {subsection}{\numberline {3.13}Light-Years}{34}{subsection.3.13}% 
 \contentsline {subsection}{\numberline {3.14}Black Bodies and Power Output of Stars}{34}{subsection.3.14}% 
+\contentsline {subsubsection}{\numberline {3.14.1}Wein's Displacement Law}{34}{subsubsection.3.14.1}% 
