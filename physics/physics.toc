@@ -55,5 +55,8 @@
 \contentsline {subsection}{\numberline {3.11}Astronomical Units}{32}{subsection.3.11}% 
 \contentsline {subsection}{\numberline {3.12}Parsecs}{32}{subsection.3.12}% 
 \contentsline {subsection}{\numberline {3.13}Light-Years}{34}{subsection.3.13}% 
-\contentsline {subsection}{\numberline {3.14}Black Bodies and Power Output of Stars}{34}{subsection.3.14}% 
-\contentsline {subsubsection}{\numberline {3.14.1}Wein's Displacement Law}{34}{subsubsection.3.14.1}% 
+\contentsline {subsection}{\numberline {3.14}Magnitude of Stars}{34}{subsection.3.14}% 
+\contentsline {subsection}{\numberline {3.15}Black Bodies and Power Output of Stars}{35}{subsection.3.15}% 
+\contentsline {subsubsection}{\numberline {3.15.1}Wein's Displacement Law}{35}{subsubsection.3.15.1}% 
+\contentsline {subsubsection}{\numberline {3.15.2}Stefan's Law}{36}{subsubsection.3.15.2}% 
+\contentsline {subsubsection}{\numberline {3.15.3}Side Note:}{36}{subsubsection.3.15.3}% 

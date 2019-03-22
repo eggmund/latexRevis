@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  20 MAR 2019 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.6)  21 MAR 2019 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,12 +489,12 @@ LaTeX Warning: No \author given.
 \openout4 = `physics.toc'.
 
  [2]
-<images/hadronFamily.png, id=314, 1164.35pt x 517.935pt>
+<images/hadronFamily.png, id=329, 1164.35pt x 517.935pt>
 File: images/hadronFamily.png Graphic file (type png)
 <use images/hadronFamily.png>
 Package pdftex.def Info: images/hadronFamily.png  used on input line 33.
 (pdftex.def)             Requested size: 319.81526pt x 142.26378pt.
-<images/quarks.png, id=315, 1022.82124pt x 577.15625pt>
+<images/quarks.png, id=330, 1022.82124pt x 577.15625pt>
 File: images/quarks.png Graphic file (type png)
 <use images/quarks.png>
 Package pdftex.def Info: images/quarks.png  used on input line 45.
@@ -507,7 +507,7 @@ Overfull \hbox (21.95828pt too wide) in paragraph at lines 58--59
  []
 
 [4 <./images/quarks.png>]
-<images/bandOfStability.png, id=326, 420.57124pt x 602.25pt>
+<images/bandOfStability.png, id=342, 420.57124pt x 602.25pt>
 File: images/bandOfStability.png Graphic file (type png)
 <use images/bandOfStability.png>
 Package pdftex.def Info: images/bandOfStability.png  used on input line 98.
@@ -538,30 +538,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 117.
 
 [6 <./images/bandOfStability.png>]
-<images/betaMinus.png, id=342, 376.40625pt x 376.40625pt>
+<images/betaMinus.png, id=357, 376.40625pt x 376.40625pt>
 File: images/betaMinus.png Graphic file (type png)
 <use images/betaMinus.png>
 Package pdftex.def Info: images/betaMinus.png  used on input line 134.
 (pdftex.def)             Requested size: 227.62596pt x 227.62204pt.
  [7 <./images/betaMinus.png>]
-<images/betaPlus.png, id=349, 563.10374pt x 537.00626pt>
+<images/betaPlus.png, id=364, 563.10374pt x 537.00626pt>
 File: images/betaPlus.png Graphic file (type png)
 <use images/betaPlus.png>
 Package pdftex.def Info: images/betaPlus.png  used on input line 148.
 (pdftex.def)             Requested size: 208.84348pt x 199.16928pt.
-<images/pairProduction.png, id=350, 284.0211pt x 142.49236pt>
+<images/pairProduction.png, id=365, 284.0211pt x 142.49236pt>
 File: images/pairProduction.png Graphic file (type png)
 <use images/pairProduction.png>
 Package pdftex.def Info: images/pairProduction.png  used on input line 164.
 (pdftex.def)             Requested size: 226.8618pt x 113.81102pt.
  [8 <./images/betaPlus.png> <./images/pairProduction.png>]
-<images/emRepulsion.png, id=356, 286.06876pt x 248.93pt>
+<images/emRepulsion.png, id=371, 286.06876pt x 248.93pt>
 File: images/emRepulsion.png Graphic file (type png)
 <use images/emRepulsion.png>
 Package pdftex.def Info: images/emRepulsion.png  used on input line 182.
 (pdftex.def)             Requested size: 130.79442pt x 113.81102pt.
  [9 <./images/emRepulsion.png>]
-<images/photoelecExp.png, id=362, 810.02625pt x 370.38374pt>
+<images/photoelecExp.png, id=377, 810.02625pt x 370.38374pt>
 File: images/photoelecExp.png Graphic file (type png)
 <use images/photoelecExp.png>
 Package pdftex.def Info: images/photoelecExp.png  used on input line 216.
@@ -573,55 +573,55 @@ Overfull \hbox (0.48344pt too wide) in paragraph at lines 231--232
 s-sion/absorption
  []
 
-<images/spectraElecEmmision.jpg, id=368, 634.37pt x 381.425pt>
+<images/spectraElecEmmision.jpg, id=383, 634.37pt x 381.425pt>
 File: images/spectraElecEmmision.jpg Graphic file (type jpg)
 <use images/spectraElecEmmision.jpg>
 Package pdftex.def Info: images/spectraElecEmmision.jpg  used on input line 233
 .
 (pdftex.def)             Requested size: 390.0pt x 234.50223pt.
 [11 <./images/spectraElecEmmision.jpg>]
-<images/mercuryTube.png, id=373, 438.63875pt x 260.975pt>
+<images/mercuryTube.png, id=388, 438.63875pt x 260.975pt>
 File: images/mercuryTube.png Graphic file (type png)
 <use images/mercuryTube.png>
 Package pdftex.def Info: images/mercuryTube.png  used on input line 244.
 (pdftex.def)             Requested size: 390.0pt x 232.04004pt.
  [12 <./images/mercuryTube.png>]
-<images/transverseWave.png, id=378, 816.04875pt x 479.7925pt>
+<images/transverseWave.png, id=393, 816.04875pt x 479.7925pt>
 File: images/transverseWave.png Graphic file (type png)
 <use images/transverseWave.png>
 Package pdftex.def Info: images/transverseWave.png  used on input line 280.
 (pdftex.def)             Requested size: 272.99881pt x 160.50635pt.
-<images/longitudinalWave.png, id=379, 823.075pt x 198.7425pt>
+<images/longitudinalWave.png, id=394, 823.075pt x 198.7425pt>
 File: images/longitudinalWave.png Graphic file (type png)
 <use images/longitudinalWave.png>
 Package pdftex.def Info: images/longitudinalWave.png  used on input line 281.
 (pdftex.def)             Requested size: 390.0pt x 94.17015pt.
 
 [13 <./images/transverseWave.png>]
-<images/superposition.png, id=385, 278.2395pt x 112.0185pt>
+<images/superposition.png, id=400, 278.2395pt x 112.0185pt>
 File: images/superposition.png Graphic file (type png)
 <use images/superposition.png>
 Package pdftex.def Info: images/superposition.png  used on input line 291.
 (pdftex.def)             Requested size: 195.0pt x 78.50641pt.
  [14 <./images/longitudinalWave.png> <./images/superposition.png (PNG copy)>]
-<images/incidentAngle.png, id=390, 120.45pt x 121.6545pt>
+<images/incidentAngle.png, id=405, 120.45pt x 121.6545pt>
 File: images/incidentAngle.png Graphic file (type png)
 <use images/incidentAngle.png>
 Package pdftex.def Info: images/incidentAngle.png  used on input line 323.
 (pdftex.def)             Requested size: 120.44969pt x 121.65419pt.
  [15 <./images/incidentAngle.png (PNG copy)>]
-<images/criticalAngle.png, id=395, 125.87025pt x 111.41624pt>
+<images/criticalAngle.png, id=410, 125.87025pt x 111.41624pt>
 File: images/criticalAngle.png Graphic file (type png)
 <use images/criticalAngle.png>
 Package pdftex.def Info: images/criticalAngle.png  used on input line 341.
 (pdftex.def)             Requested size: 125.86993pt x 111.41597pt.
-<images/opticalFibreCrossSec.png, id=396, 191.5155pt x 113.82526pt>
+<images/opticalFibreCrossSec.png, id=411, 191.5155pt x 113.82526pt>
 File: images/opticalFibreCrossSec.png Graphic file (type png)
 <use images/opticalFibreCrossSec.png>
 Package pdftex.def Info: images/opticalFibreCrossSec.png  used on input line 35
 1.
 (pdftex.def)             Requested size: 191.51501pt x 113.82497pt.
-<images/opticsAbsorption.png, id=397, 274.02374pt x 78.89474pt>
+<images/opticsAbsorption.png, id=412, 274.02374pt x 78.89474pt>
 File: images/opticsAbsorption.png Graphic file (type png)
 <use images/opticsAbsorption.png>
 Package pdftex.def Info: images/opticsAbsorption.png  used on input line 361.
@@ -629,7 +629,7 @@ Package pdftex.def Info: images/opticsAbsorption.png  used on input line 361.
 
 [16 <./images/criticalAngle.png (PNG copy)> <./images/opticalFibreCrossSec.png 
 (PNG copy)>]
-<images/singleSlitDiffPattern.jpg, id=402, 1284.8pt x 723.70375pt>
+<images/singleSlitDiffPattern.jpg, id=417, 1284.8pt x 723.70375pt>
 File: images/singleSlitDiffPattern.jpg Graphic file (type jpg)
 <use images/singleSlitDiffPattern.jpg>
 Package pdftex.def Info: images/singleSlitDiffPattern.jpg  used on input line 3
@@ -637,18 +637,18 @@ Package pdftex.def Info: images/singleSlitDiffPattern.jpg  used on input line 3
 (pdftex.def)             Requested size: 390.0pt x 219.67473pt.
  [17 <./images/opticsAbsorption.png (PNG copy)> <./images/singleSlitDiffPattern
 .jpg>]
-<images/singleSlit.png, id=407, 702.625pt x 602.25pt>
+<images/singleSlit.png, id=422, 702.625pt x 602.25pt>
 File: images/singleSlit.png Graphic file (type png)
 <use images/singleSlit.png>
 Package pdftex.def Info: images/singleSlit.png  used on input line 389.
 (pdftex.def)             Requested size: 282.16002pt x 241.84842pt.
-<images/slitDIffCompare.jpg, id=408, 351.3125pt x 264.99pt>
+<images/slitDIffCompare.jpg, id=423, 351.3125pt x 264.99pt>
 File: images/slitDIffCompare.jpg Graphic file (type jpg)
 <use images/slitDIffCompare.jpg>
 Package pdftex.def Info: images/slitDIffCompare.jpg  used on input line 397.
 (pdftex.def)             Requested size: 234.00238pt x 176.5113pt.
  [18 <./images/singleSlit.png>]
-<images/Double-slit-diffraction-diagram.png, id=414, 834.11626pt x 764.8575pt>
+<images/Double-slit-diffraction-diagram.png, id=429, 834.11626pt x 764.8575pt>
 File: images/Double-slit-diffraction-diagram.png Graphic file (type png)
 <use images/Double-slit-diffraction-diagram.png>
 Package pdftex.def Info: images/Double-slit-diffraction-diagram.png  used on in
@@ -656,48 +656,48 @@ put line 405.
 (pdftex.def)             Requested size: 310.28549pt x 284.52756pt.
  [19 <./images/slitDIffCompare.jpg> <./images/Double-slit-diffraction-diagram.p
 ng (PNG copy)>]
-<images/pathDifference.jpg, id=420, 361.35pt x 327.2225pt>
+<images/pathDifference.jpg, id=435, 361.35pt x 327.2225pt>
 File: images/pathDifference.jpg Graphic file (type jpg)
 <use images/pathDifference.jpg>
 Package pdftex.def Info: images/pathDifference.jpg  used on input line 423.
 (pdftex.def)             Requested size: 195.0pt x 176.58267pt.
  [20 <./images/pathDifference.jpg>]
-<images/doubleSlitWhite.png, id=425, 803.0pt x 862.22125pt>
+<images/doubleSlitWhite.png, id=440, 803.0pt x 862.22125pt>
 File: images/doubleSlitWhite.png Graphic file (type png)
 <use images/doubleSlitWhite.png>
 Package pdftex.def Info: images/doubleSlitWhite.png  used on input line 439.
 (pdftex.def)             Requested size: 158.97978pt x 170.71652pt.
  [21 <./images/doubleSlitWhite.png>]
-<images/polarisation.png, id=431, 803.0pt x 533.995pt>
+<images/polarisation.png, id=446, 803.0pt x 533.995pt>
 File: images/polarisation.png Graphic file (type png)
 <use images/polarisation.png>
 Package pdftex.def Info: images/polarisation.png  used on input line 468.
 (pdftex.def)             Requested size: 390.0pt x 259.35393pt.
  [22 <./images/Polarisation.png>]
-<images/firstHarmonic.png, id=437, 328.8285pt x 121.05225pt>
+<images/firstHarmonic.png, id=452, 328.8285pt x 121.05225pt>
 File: images/firstHarmonic.png Graphic file (type png)
 <use images/firstHarmonic.png>
 Package pdftex.def Info: images/firstHarmonic.png  used on input line 496.
 (pdftex.def)             Requested size: 272.99881pt x 100.50288pt.
-<images/secondHarmonic.png, id=438, 319.79475pt x 129.48375pt>
+<images/secondHarmonic.png, id=453, 319.79475pt x 129.48375pt>
 File: images/secondHarmonic.png Graphic file (type png)
 <use images/secondHarmonic.png>
 Package pdftex.def Info: images/secondHarmonic.png  used on input line 506.
 (pdftex.def)             Requested size: 272.99881pt x 110.53983pt.
  [23 <./images/firstHarmonic.png (PNG copy)> <./images/secondHarmonic.png (PNG 
 copy)>]
-<images/harmonicInTube.png, id=443, 424.58624pt x 218.61674pt>
+<images/harmonicInTube.png, id=458, 424.58624pt x 218.61674pt>
 File: images/harmonicInTube.png Graphic file (type png)
 <use images/harmonicInTube.png>
 Package pdftex.def Info: images/harmonicInTube.png  used on input line 522.
 (pdftex.def)             Requested size: 390.0pt x 200.81625pt.
  [24 <./images/harmonicInTube.png (PNG copy)>]
-<images/lensDiagram.png, id=449, 309.5565pt x 116.23425pt>
+<images/lensDiagram.png, id=465, 309.5565pt x 116.23425pt>
 File: images/lensDiagram.png Graphic file (type png)
 <use images/lensDiagram.png>
 Package pdftex.def Info: images/lensDiagram.png  used on input line 538.
 (pdftex.def)             Requested size: 390.0pt x 146.45058pt.
-<images/realAndImaginaryImages.png, id=450, 527.571pt x 136.71075pt>
+<images/realAndImaginaryImages.png, id=466, 527.571pt x 136.71075pt>
 File: images/realAndImaginaryImages.png Graphic file (type png)
 <use images/realAndImaginaryImages.png>
 Package pdftex.def Info: images/realAndImaginaryImages.png  used on input line 
@@ -705,7 +705,7 @@ Package pdftex.def Info: images/realAndImaginaryImages.png  used on input line
 (pdftex.def)             Requested size: 390.0pt x 101.06213pt.
  [25 <./images/lensDiagram.png (PNG copy)> <./images/realAndImaginaryImages.png
  (PNG copy)>]
-<images/refactingTeleLayout.png, id=456, 513.83176pt x 189.80803pt>
+<images/refactingTeleLayout.png, id=472, 513.83176pt x 189.80803pt>
 File: images/refactingTeleLayout.png Graphic file (type png)
 <use images/refactingTeleLayout.png>
 Package pdftex.def Info: images/refactingTeleLayout.png  used on input line 579
@@ -713,44 +713,44 @@ Package pdftex.def Info: images/refactingTeleLayout.png  used on input line 579
 (pdftex.def)             Requested size: 390.0pt x 144.06734pt.
 
 [26]
-<images/subtend.png, id=464, 292.2567pt x 84.18263pt>
+<images/subtend.png, id=479, 292.2567pt x 84.18263pt>
 File: images/subtend.png Graphic file (type png)
 <use images/subtend.png>
 Package pdftex.def Info: images/subtend.png  used on input line 586.
 (pdftex.def)             Requested size: 195.0pt x 56.16956pt.
  [27 <./images/refactingTeleLayout.png (PNG copy)> <./images/subtend.png (PNG c
 opy)>]
-<images/reflectingTele.png, id=471, 586.10176pt x 179.48373pt>
+<images/reflectingTele.png, id=486, 586.10176pt x 179.48373pt>
 File: images/reflectingTele.png Graphic file (type png)
 <use images/reflectingTele.png>
 Package pdftex.def Info: images/reflectingTele.png  used on input line 617.
 (pdftex.def)             Requested size: 390.0pt x 119.43185pt.
-<images/angularResolution.png, id=472, 339.669pt x 57.816pt>
+<images/angularResolution.png, id=487, 339.669pt x 57.816pt>
 File: images/angularResolution.png Graphic file (type png)
 <use images/angularResolution.png>
 Package pdftex.def Info: images/angularResolution.png  used on input line 627.
 (pdftex.def)             Requested size: 390.0pt x 66.38464pt.
-<images/airyDisc.png, id=473, 158.39175pt x 115.02975pt>
+<images/airyDisc.png, id=488, 158.39175pt x 115.02975pt>
 File: images/airyDisc.png Graphic file (type png)
 <use images/airyDisc.png>
 Package pdftex.def Info: images/airyDisc.png  used on input line 632.
 (pdftex.def)             Requested size: 142.26378pt x 103.31694pt.
  [28 <./images/reflectingTele.png (PNG copy)> <./images/angularResolution.png (
 PNG copy)>]
-<images/sphericalAbb.png, id=479, 243.309pt x 89.73524pt>
+<images/sphericalAbb.png, id=494, 243.309pt x 89.73524pt>
 File: images/sphericalAbb.png Graphic file (type png)
 <use images/sphericalAbb.png>
 Package pdftex.def Info: images/sphericalAbb.png  used on input line 660.
 (pdftex.def)             Requested size: 272.99881pt x 100.69582pt.
  [29 <./images/airyDisc.png (PNG copy)>] [30 <./images/sphericalAbb.png (PNG co
 py)>]
-<images/radioTelescope.png, id=488, 405.9165pt x 168.02776pt>
+<images/radioTelescope.png, id=503, 405.9165pt x 168.02776pt>
 File: images/radioTelescope.png Graphic file (type png)
 <use images/radioTelescope.png>
 Package pdftex.def Info: images/radioTelescope.png  used on input line 697.
 (pdftex.def)             Requested size: 390.0pt x 161.44069pt.
  [31 <./images/radioTelescope.png (PNG copy)>]
-<images/parsec.png, id=494, 803.0pt x 1258.7025pt>
+<images/parsec.png, id=509, 803.0pt x 1258.7025pt>
 File: images/parsec.png Graphic file (type png)
 <use images/parsec.png>
 Package pdftex.def Info: images/parsec.png  used on input line 740.
@@ -760,32 +760,32 @@ Package pdftex.def Info: images/parsec.png  used on input line 740.
 Overfull \vbox (19.33426pt too high) has occurred while \output is active []
 
 
-[33 <./images/parsec.png>]
-<images/blackBodyColour.png, id=504, 1927.2pt x 492.84125pt>
+[33 <./images/parsec.png>] [34]
+<images/blackBodyColour.png, id=523, 1927.2pt x 492.84125pt>
 File: images/blackBodyColour.png Graphic file (type png)
 <use images/blackBodyColour.png>
-Package pdftex.def Info: images/blackBodyColour.png  used on input line 774.
+Package pdftex.def Info: images/blackBodyColour.png  used on input line 801.
 (pdftex.def)             Requested size: 390.0pt x 99.73212pt.
- [34]
-<images/blackBodyPeakWav.jpg, id=509, 437.9562pt x 264.99pt>
+<images/blackBodyPeakWav.jpg, id=524, 437.9562pt x 264.99pt>
 File: images/blackBodyPeakWav.jpg Graphic file (type jpg)
 <use images/blackBodyPeakWav.jpg>
-Package pdftex.def Info: images/blackBodyPeakWav.jpg  used on input line 780.
+Package pdftex.def Info: images/blackBodyPeakWav.jpg  used on input line 807.
 (pdftex.def)             Requested size: 390.0pt x 235.98187pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
- [35 <./images/blackBodyColour.png> <./images/blackBodyPeakWav.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
+ [35 <./images/blackBodyColour.png>] [36 <./images/blackBodyPeakWav.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 841.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 841.
  (./physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 841.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 841.
 Package rerunfilecheck Info: File `physics.out' has not changed.
-(rerunfilecheck)             Checksum: 206E46E47D685FA4FDAF2B4B6E5029B7;4090.
+(rerunfilecheck)             Checksum: AD28F07A37CBCD54B241A7F0073D4014;4305.
  ) 
 Here is how much of TeX's memory you used:
- 6829 strings out of 492616
- 100425 string characters out of 6135178
+ 6837 strings out of 492616
+ 100555 string characters out of 6135178
  189547 words of memory out of 5000000
- 10530 multiletter control sequences out of 15000+600000
+ 10533 multiletter control sequences out of 15000+600000
  10617 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,31p,829b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -800,10 +800,10 @@ ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
 f-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on physics.pdf (35 pages, 4562884 bytes).
+Output written on physics.pdf (37 pages, 4567429 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 477 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 668 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 692 words of extra memory for PDF output out of 10000 (max. 10000000)
 

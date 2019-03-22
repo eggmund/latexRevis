@@ -762,6 +762,33 @@ The distance to the object is the adjacent, the opposite is 1 $AU$, and so
 
 Light-years are useful because they help you understand how hugely far away stuff is. For example, when you look at the Moon, light takes 1 second to come from the Moon (reflected off of the surface), so when you look at the moon you are looking at it as it was 1 second ago. Or if a galaxy is 10 light-years away, then you are looking at it as it was 10 years ago.
 
+\subsection{Magnitude of Stars}
+
+The magnitude of a star is a rating system for comparing the brightness of stars, compared to the star Vega (magnitude of 0).
+
+The scale goes:
+
+\begin{itemize}
+	\item \textbf{0} - Magnitude of the star Vega.
+	\item \textbf{6} - Dimmest star visable to the human eye.
+\end{itemize}
+
+There is apparent magnitude, and absolute magnitude.
+
+Apparent magnitude is the magnitude of the star as looking at it in the night sky, while absolute magnitude is what the apparent magnitude would be if the star was \textbf{10 parsecs} away.
+
+\textbf{The scale is infinite} however. For example, the Sun has an apparent magnitude of -26.7. Absolute magnitude is useful for comparing close stars, like the Sun, with other stars. The Sun's absolute magnitude is 4.84.
+
+The equation for finding absolute and apparent magnitude is:
+
+$$
+m - M = 5 \log \left({\frac{d}{10}}\right)
+$$
+
+Where $m$ is the apparent magnitude, $M$ is the absolute magnitude and $d$ is the distance to the star in parsecs.
+
+
+
 \subsection{Black Bodies and Power Output of Stars}
 
 \textbf{A black body is a body that absorbs and radiates all incident radiation wavelengths.} Black bodies have a peak wavelength that it emmits, based on the temperature of the body.
@@ -786,6 +813,29 @@ $$
 \lambda \propto \frac{1}{T}
 $$
 
-So $\lambda T =$ constant.
+So $\lambda_{\text{peak}} T =$ constant.
+
+That constant is $2.9 \times 10^{-3}$.
+
+\subsubsection{Stefan's Law}
+
+Stefan's law is used to find the power output of a black body:
+
+$$
+P = {\sigma}AT^4
+$$
+
+Where $\sigma$ is Stefan's constant, $A$ is the area of the body, and $T$ is the absolute temperature of the body (in kelvin).
+
+\subsubsection{Side Note:}
+
+If (and only if) two stars have the same absolute magnitude, they have the same power output, since stars with the same absolute magnitude will produce the same amount of visible light, so they will either be very similar, or have higher temperature but lower surface area, or visa versa.
+
+\begin{align*}
+P_1 &= P_2 \\
+\sigma A_1 T^4_1 &= \sigma A_2 T^4_2 \\
+A_1 T^4_1 &= A_2 T^4_2 \\
+\frac{A_1}{A_2} &= \frac{T^4_2}{T^4_1}
+\end{align*}
 
 \end{document}
