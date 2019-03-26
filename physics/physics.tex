@@ -665,7 +665,7 @@ It is dependant on the minimum angle that the telescope can distinguish two poin
 
 \includegraphics[width=\textwidth]{images/angularResolution.png}
 
-The minimum ange is limited by diffraction. If the light passes through a circular apeture (tube of telescope), then it will diffract and form a pattern like the single slit experiment, however in 2 dimensions. The central maximum of that pattern is called the "Airy disc". Two light sources can just about be distinguished if one of the sources' Airy discs is at least as far away as the first minimum of the diffraction pattern formed by the other star (first dark band going out from middle).
+The minimum angle is limited by diffraction. If the light passes through a circular aperture (tube of telescope), then it will diffract and form a pattern like the single slit experiment, however in 2 dimensions. The central maximum of that pattern is called the "Airy disc". Two light sources can just about be distinguished if one of the sources' Airy discs is at least as far away as the first minimum of the diffraction pattern formed by the other star (first dark band going out from middle).
 
 \begin{center}
 \includegraphics[width=5cm]{images/airyDisc.png}
@@ -768,7 +768,7 @@ and so on.
 
 \subsection{Astronomical Units}
 
-The astronomical unit ($AU$) is the average distance between the center of the Sun and the center of the Earth.
+The astronomical unit ($AU$) is the average distance between the centre of the Sun and the centre of the Earth.
 
 \subsection{Parsecs}
 
@@ -809,7 +809,7 @@ The scale goes:
 
 \begin{itemize}
 	\item \textbf{0} - Magnitude of the star Vega.
-	\item \textbf{6} - Dimmest star visable to the human eye.
+	\item \textbf{6} - Dimmest star visible to the human eye.
 \end{itemize}
 
 There is apparent magnitude, and absolute magnitude.
@@ -830,7 +830,7 @@ Where $m$ is the apparent magnitude, $M$ is the absolute magnitude and $d$ is th
 
 \subsection{Black Bodies and Power Output of Stars}
 
-\textbf{A black body is a body that absorbs and radiates all incident radiation wavelengths.} Black bodies have a peak wavelength that it emmits, based on the temperature of the body.
+\textbf{A black body is a body that absorbs and radiates all incident radiation wavelengths.} Black bodies have a peak wavelength that it emits, based on the temperature of the body.
 
 \subsubsection{Wein's Displacement Law}
 
@@ -840,7 +840,7 @@ A star can be approximated as a black body. As a star gets hotter, it tends to b
 \includegraphics[width=\textwidth]{images/blackBodyColour.png}
 \end{center}
 
-Stars of different temperatures have a different peak wavelenth:
+Stars of different temperatures have a different peak wavelength:
 
 \begin{center}
 \includegraphics[width=\textwidth]{images/blackBodyPeakWav.jpg}
@@ -888,5 +888,108 @@ $$
 Where $m_x$ is the apparent magnitude.
 
 This works because the magnitude scale (for stars) is logarithmic (however the scale goes backwards so it seems like an exponential), so a difference of 1 in magnitude is a difference of $100^{\frac{1}{5}} = 2.51$ times brighter/dimmer each step.
+
+\subsection{Classification of Stars}
+
+Stars are not only classified by their absolute magnitude, but also but their spectral class.
+
+The spectral class of a star is determined by it's temperature, and it's spectral absorption lines.
+
+The spectral classes go:
+
+O, B, A, F, G, K, M
+
+Oh Be A Fine Girl Kiss Me (Acronym)
+
+Unfortunately, this table has to be remembered:
+
+\includegraphics[width=\textwidth]{images/spectralClasses.png}
+
+Originally, stars were only classified based on their hydrogen alpha ($H \alpha$) absorption line (656.28 nm). The hydrogen alpha line is only formed when an electron in a hydrogen atom is excited from level 2 to level 3, absorbing a photon. \textbf{The photon is usually produced by the core of the star, and is absorbed by the atmosphere of the star, then emitted in a random direction}, so the light of that wavelength will no longer travel towards Earth, which is why the line is visible. In reality, the line is only slightly fainter than the other wavelengths, since it is emitted again, but in a random direction.a
+
+Steps in order:
+
+\begin{enumerate}
+\item \textbf{Electron in hydrogen atom in atmosphere is in n = 2 state.}
+\item \textbf{Light passing through excites that electron to n = 3.}
+\item \textbf{The electron de-excites. This emits an electron in a random direction.} The electron has to drop back down to n = 2 for us to see it though, since if it drops to n = 1, then it will be UV and will be blocked by the atmosphere.
+\end{enumerate}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{images/hydrogenAlpha.jpg}
+\end{center}
+
+This isn't a good way of doing it since if a star is very hot, the hydrogen is ionised, so it cannot be excited, likewise, if the star is too cold, then it cannot produce enough energy to excite the hydrogen, so it is a goldilocks scenario.
+
+In the old system, A was the strongest $H \alpha$ line, and O was the weakest (alphabetical order).
+
+\subsubsection{Hertzsprung-Russel Diagram}
+
+The Hertzsprung-Russel diagram plots absolute magnitude of stars in the sky against their temperature (or spectral class).
+
+\includegraphics[width=\textwidth]{images/hertzsprungRussel.jpg}
+
+The scale's are logarithmic, otherwise the graph would be huge. For A-Level, you have to know the rough area for dwarfs and giants, and what the main sequence line looks like.
+
+The absolute magnitude is on the y-axis (in this case it is in solar units) and ranges from 10 to -15, where -15 is higher on the y-axis. The temperature is on the x-axis, and goes backwards and is logarithmic.
+
+\subsection{Evolution of Stars}
+
+There are two forces in balance in a star. The \textbf{gravitational force} and the \textbf{radiation pressure}. The radiation pressure is the pressure generated by fusion in the core.
+
+\includegraphics[width=\textwidth]{images/starLifeCycle.jpg}
+
+\subsubsection{All Stars}
+
+Step by step process:
+
+\begin{enumerate}
+	\item \textbf{Nebula} - Large gas clouds.
+
+	\item \textbf{Protostar} - Collection of gas pulled together by gravity (similar to gas planet), but does not have enough pressure to start fusion.
+
+	\item \textbf{Main Sequence Star} - Fusion starts when there is enough gravity to create enough pressure for fusion. The GPE $\rightarrow$ KE in the gas as the gas cloud increases mass (ideal gas laws), which increases the temperature of the gas. Fusing Hydrogen into Helium.
+
+	\item \textbf{Depletes Hydrogen} - Gravity becomes stronger than the radiation pressure, so gravity compresses the gas further (GPE $\rightarrow$ KE), so fusion of Helium starts, increasing radiation pressure. The radiation pressure from fusing Helium is greater than Hydrogen, so the star expands and cools.
+\end{enumerate}
+
+This is the point where big and small stars are different.
+
+\subsubsection{Small Stars ($< 3$ Solar Masses)}
+
+\begin{enumerate}
+	\setcounter{enumi}{5}
+
+	\item \textbf{Red Giant stage} - Since the star has expanded, it is larger, and it has cooled so the colour of the star becomes more reddish.
+
+	\item \textbf{Iron is formed in the core} - Iron requires energy to fuse, so fusion stops here. As more iron is produced in the core, the rate of fusion decreases, until fusion stops.
+
+	\item \textbf{White Dwarf} - Once fusion stops, the outer layers of the star break off, leaving the hot dense core. The core then slowly cools over billions of years into a \textbf{black dwarf} (not enough energy to emit light). Electron degeneracy (EM repulsion) prevents the core from collapsing due to gravity.
+\end{enumerate}
+
+\subsubsection{Large Stars ($> 3$ Solar Masses)}
+
+\begin{enumerate}
+	\setcounter{enumi}{5}
+
+	\item \textbf{Red Supergiant stage} - The star has expanded to a huge reddish star due to the expansion.
+
+	\item \textbf{Iron is formed in the core} - Same process as in small stars.
+
+	\item \textbf{Supernova} - Gravity compresses the star due to fusion stopping. This causes the core to collapse, and when it rebounds, it causes a supernova explosion that ejects all of the layers off of the star. This explosion also causes the fusion of heavier elements. This then leaves a super-dense core behind. If the core is dense enough so that the gravity is so strong even light can't escape, then you are left with a black hole. Otherwise, you are left with a neutron star.
+
+	\item {\textbf{Neutron star} - A neutron star is entirely made out of neutrons, and has the same density as the atomic nucleus (very dense). Most are around 10 km in diameter. A neutron star is formed when the core collapses, where the pressure is so high that the electrons in the atoms in the core were compressed into the nucleus, reacting with the protons to produce neutrons.
+	
+	$$
+	p^+ + e^- \rightarrow n^0 + V_e
+	$$}
+
+	\item \textbf{Black hole} - Another possibility is that a black hole is formed. It forms similarly to a neutron star, but it is so dense that light cannot escape it's gravitational pull.
+
+\end{enumerate}
+
+\subsection{Schwarzschild Radius}
+
+
 
 \end{document}
