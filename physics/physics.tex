@@ -549,6 +549,88 @@ Stationary waves can also be created in air too. This is how clarinets and trump
 \newpage
 \section{Electricity}
 
+\subsection{Voltage, Current and Resistance (Ohm's law)}
+
+\subsubsection{Voltage and E.M.F}
+
+Voltage is the amount of enegry provided (electric potential energy) per unit charge, or \textbf{work done per unit charge.}
+
+E.M.F (Electromotive force) is the voltage supplied by a cell/power source with no resistance (even no internal resistance).
+
+\subsubsection{Current}
+
+Current is the rate of flow of charge (Coulombs per second).
+
+$$
+I = \frac{\Delta Q}{\Delta t}
+$$
+
+\subsubsection{Resistance}
+
+When you create a potential difference across a component, a current will flow. The amount of current that makes it through the component depends on the resistance of the component.
+
+$$
+R = \frac{I}{V}
+$$
+
+Measured in Ohms ($\Omega$).
+
+\subsubsection{Ohm's Law}
+
+For ohmic conductors, if physical conditions are kept constant (such as temperature), $I \propto V$.
+
+The constant of proportionality is actually the resistance.
+
+$$
+V = IR
+$$
+
+\subsection{IV Graphs, Diodes and Thermistors}
+
+IV graphs (or current voltage graphs) show the characteristics of a conductor.
+
+\subsubsection{Ohmic Conductor IV}
+
+If given an IV graph for an ohmic conductor, then it will be a straight line where the gradient is $\frac{1}{R}$, since $I$ is on the $y$ axis rather than the $x$ axis ($y = mx + c \rightarrow I = \frac{1}{R}V$).
+
+\begin{center}
+\includegraphics[]{images/ohmicCond.png}
+\end{center}
+
+\subsubsection{Filament Lamp IV}
+
+A filament lamp however, is not an ohmic conductor. The resistance of the filament in the bulb increases as the temperature of the filament increases, which is due to the voltage.
+
+\begin{center}
+\includegraphics[]{images/bulbIV.png}
+\end{center}
+
+\subsubsection{Diodes}
+
+A diode is a component that only lets current flow in one direction. The forward bias is the direction the current is allowed to flow. If current flows in reverse bias, it will be blocked, unless it is above like 1000V or whatever rating is for the diode, and at this point the diode breaks. 
+
+Most diodes require a threshold voltage (in forward bias) before current starts to flow. This is usually around 0.6V.
+
+\begin{center}
+\includegraphics[]{images/diodeIV.png}
+\end{center}
+
+\subsubsection{Thermistors}
+
+The resistance of a thermistor depends on the temperature. We only need to know about NTC thermistors - Negative Temperature Coefficient.
+
+\begin{center}
+\includegraphics[]{images/thermistor.png}
+\end{center}
+
+IV graph for thermistor:
+
+\begin{center}
+\includegraphics[]{images/thermistorIV.png}
+\end{center}
+
+\subsection{Resistivity}
+
 \newpage
 \section{Circular, Periodic and Harmonic Motion}
 
@@ -1013,6 +1095,60 @@ c^2 &= \frac{2GM}{r_s} \\\\
 r_s &= \frac{2GM}{c^2}
 \end{align*}
 
+\subsection{Doppler Effect}
 
+Doppler shift is where a source of a wave is moving further away or closer (relatively) to us, so the wave we recieve changes frequency.
+
+\includegraphics[width=\textwidth]{images/doppler.png}
+
+Equations for doppler shift:
+
+\begin{align*}
+z = &\frac{\Delta f}{f} = \frac{v}{c} \\
+  &\frac{\Delta \lambda}{\lambda} = -\frac{v}{c}
+\end{align*}
+
+Where $f$ is lab frequency (baseline frequency), and $\lambda$ is the lab wavelength. $v$ is the recession speed (how fast the object is travelling away from you relatively), and $c$ is the (base) speed of the wave.
+
+\textbf{$v$ is the speed the object is travelling \textit{away} from you.}
+
+The reason $\frac{v}{c}$ is -ve in the second equation is because the wavelength increases when travelling away, whereas the frequency would decrease.
+
+The doppler effect can be used to work out how fast objects are moving away from us in space, as they are moving so fast that their light is red/blue shifted. From this, we can also tell how fast the universe is expanding.
+
+We can also use this method to work out the rotational speed of a star, as one side will be slightly blue shiftd, the other will be red shifted.
+
+Also, it can be used to figure out the speed of the orbits of binary stars, which can then be used to find a whole bunch of other stuff too. This is useful when you cannot resolve the binary system with a telescope.
+
+\subsubsection{Spectroscopic Binary (Binary systems that cannot be resolved)}
+
+When we cannot resolve a binary star system using a telescope, we use this method.
+
+We use the spectral lines of each star to measure how much each star is red/blue shifted.
+
+\newpage
+\begin{center}
+\includegraphics[height=0.4\textheight]{images/spectralBin1.png}
+\end{center}
+
+At this point, both will be at lab value wavelengths, since they are not moving towards/away from us.
+
+\begin{center}
+\includegraphics[height=0.4\textheight]{images/spectralBin2.png}
+\end{center}
+
+Now both velocities are fully towards/away, so strongest doppler effect shown. This is the value to measure to get $\Delta \lambda$.
+
+Each star is not necessarily going to be equally doppler shifted, since one star may be bigger than the other, and hence will move slower.
+
+\subsection{Hubble's Law}
+
+Speed of recession of a galaxy is directly proportional to it's distance from Earth.
+
+$$
+v = Hd
+$$
+
+Where H is the Hubble constant: $65 kms^{-1} Mpc^{-1}$
 
 \end{document}
